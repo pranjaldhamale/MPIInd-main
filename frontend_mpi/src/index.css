@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+
+:root{
+  --primary-hue : 270;
+  --black-lightness : 15%;
+  --dark-lightness: 44%;
+  --light-lightness: 94%;
+  --white-lightness:100%;
+  --color-primary:hsl(var(--primary-hue), 89%, 41%);
+  --color-white:hsl(0, 5%, var(--white-lightness));
+  
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
